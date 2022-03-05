@@ -1,0 +1,11 @@
+name: flask-dev
+
+deployment: 
+  replicas: 1
+  version: v6
+  port: 5000
+
+service: 
+  port: 80
+  
+
